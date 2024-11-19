@@ -1,0 +1,10 @@
+schema:
+    - 'https://spacex-production.up.railway.app/' # Your GraphQL API endpoint
+documents:
+    - './src/queries/*.ts' # Path to your query files
+generates:
+    ./src/schema/graphql.ts:
+        plugins:
+            - 'typescript'
+            - 'typescript-operations'
+            - 'typescript-react-apollo' # Optional, if using Apollo Client
