@@ -4,7 +4,6 @@
     "private": true,
     "dependencies": {
         "@apollo/client": "^3.11.10",
-        "@craco/craco": "^7.1.0",
         "@emotion/react": "^11.13.3",
         "@emotion/styled": "^11.13.0",
         "@fontsource/roboto": "^5.1.0",
@@ -34,9 +33,9 @@
         "webpack-dev-server": "^5.1.0"
     },
     "scripts": {
-        "start": "craco start",
-        "build": "craco build",
-        "test": "craco test",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
         "eject": "react-scripts eject",
         "generate": "graphql-codegen"
     },
@@ -58,9 +57,5 @@
             "last 1 safari version"
         ]
     },
-    "devDependencies": {
-        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
-        "react-refresh": "^0.14.2",
-        "react-refresh-webpack-plugin": "^0.1.0"
-    }
+    "devDependencies": {}
 }
